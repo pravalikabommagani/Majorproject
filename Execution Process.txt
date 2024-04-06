@@ -1,0 +1,13 @@
+Execution Process:
+Firstly, we need to consider Gemini Api which contains pre-trained model Bert.
+And need to upload images from any online sites or downloaded ones.
+Later on, the image that was uploaded was analyzed by the "Bert" pre-trained model and it produces relevant questions by extracting the features required.
+The features extracted are analyzed to produce accurate questions and are displayed using Streamlit application for the user interface.
+Here, we entirely included all required code files in a folder and the execution process goes on:
+we need to open the command of that folder where all code files are available.
+And need to install the required Gemini API using the command - pip install google-generativeai
+Then we need to have an updated Python version available on the laptop.
+We need to run the code App.py using the command - python -m streamlit run App.py which provides user interface that displays the required questions of the image.
+
+  
+
